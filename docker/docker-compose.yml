@@ -1,0 +1,62 @@
+version: '3.8'
+
+
+#################
+#     SERVICES
+#################
+
+services:
+  ### Flask App ############################################
+  backend:
+    container_name: internal-flask-app-dev
+    build: 
+      context: ../
+      dockerfile: "docker/flask/Dockerfile"
+    ports:
+      - "6055:6055"
+    volumes:
+      - ../backend:/app
+    # depends_on:
+    #   - db  
+    # environment:
+    #   SECRET_KEY: ${SECRET_KEY}
+    #   DB_HOST: ${DB_HOST}
+    #   DB_PORT: ${DB_PORT}
+    #   DB_NAME: ${DB_NAME}
+    #   DB_USER: ${DB_USER}
+    #   DB_PASSWORD: ${DB_PASSWORD}
+    # restart: always
+
+  ### React App ############################################
+  frontend:
+    container_name: internal-react-app-dev
+    build: 
+      context: ../
+      dockerfile: "docker/nodejs/Dockerfile"
+    ports:
+      - "6050:6050"
+    volumes:
+      - ../frontend:/app
+      - node_modules:/app/node_modules/
+    # environment:
+    #   VITE_GA_MEASUREMENT_ID: ${VITE_GA_MEASUREMENT_ID}
+    #   VITE_BACKEND_ENDPOINT: ${VITE_BACKEND_ENDPOINT}
+    # restart: always
+
+  ### Postgres Server ############################################
+  # db:
+  #   image: postgres:13
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   environment:
+  #     POSTGRES_USER: ${POSTGRES_USER}
+  #     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+  #     POSTGRES_DB: ${POSTGRES_DB}
+  #   restart: always
+
+
+volumes:
+  node_modules:
+  # postgres_data:
