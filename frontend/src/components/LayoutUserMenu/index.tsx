@@ -4,11 +4,11 @@ import { List } from "@fluentui/react";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
 interface UserMenuProps {
-    children: React.ReactNode;
     usageData: List;
+    userName: String;
 }
 
-const LayoutUserMenu: React.FC<UserMenuProps> = ({ children, usageData }) => {
+const LayoutUserMenu: React.FC<UserMenuProps> = ({ usageData, userName }) => {
     const getPropByVersion = (version: number) => {
         const ret = usageData.find((item: number) => item.version == version);
         return { value: ret?.total_tokens, limit: ret?.limit };
@@ -33,13 +33,18 @@ const LayoutUserMenu: React.FC<UserMenuProps> = ({ children, usageData }) => {
             </PopoverTrigger>
             <Portal>
                 <PopoverContent>
+                    <PopoverHeader py={4}>
+                        <Text fontWeight="bold" fontSize="lg" color="blue.400">
+                            {userName}
+                        </Text>
+                    </PopoverHeader>
                     <PopoverBody>
-                        <UsageProgressBar label="Token 使用量" {...getPropByVersion(3.5)} />
+                        <UsageProgressBar label="Token 使用量（3.5）" {...getPropByVersion(3.5)} />
                         <UsageProgressBar label="Token 使用量（4.0）" {...getPropByVersion(4.0)} />
                     </PopoverBody>
                     <PopoverFooter cursor="pointer" onClick={() => window.close()}>
-                        <Text color="blue.600" fontSize="md">
-                            詳細
+                        <Text color="gray.700" fontSize="sm">
+                            使用状況の詳細
                         </Text>
                     </PopoverFooter>
                 </PopoverContent>

@@ -52,14 +52,16 @@ const History: React.FC = () => {
                                         <Text>{formattedDate(item._ts)}</Text>
                                         <ApproachTag approach={item.approach} />
                                     </HStack>
-                                    <Box mt={2}>{item.input}</Box>
+                                    <Text mt={2} fontSize="md">
+                                        {item.input}
+                                    </Text>
                                 </Box>
                                 <AccordionIcon />
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
                             <VStack alignItems={"flex-start"} spacing={2}>
-                                <Text>{item.response}</Text>
+                                <Text fontSize="md">{item.response}</Text>
 
                                 <Box display="flex" justifyContent="flex-end" alignItems="flex-end" h="50px" w="100%">
                                     <HStack spacing={1} mr={6}>

@@ -76,7 +76,8 @@ const Layout = () => {
                     <Spacer />
 
                     <VStack alignItems={"flex-start"} spacing={1}>
-                        <LayoutUserMenu usageData={usageData.data}>{trimUsername(loginUser)}</LayoutUserMenu>
+                        <LayoutUserMenu usageData={usageData.data} userName={loginUser} />
+
                         {/* <Box borderRadius="lg" bg="orange.300" p={1}>
                             <Text fontSize={"xs"}>Token数：{usage.data["3.5"]}</Text>
 
