@@ -1,6 +1,7 @@
-import { Box, Button, Popover, PopoverTrigger, Portal, PopoverContent, PopoverHeader, PopoverBody, PopoverFooter, Text } from "@chakra-ui/react";
+import { Box, Button, IconButton, Popover, PopoverTrigger, Portal, PopoverContent, PopoverHeader, PopoverBody, PopoverFooter, Text } from "@chakra-ui/react";
 import UsageProgressBar from "../UsageProgressBarProps";
 import { List } from "@fluentui/react";
+import AccountCircle from "@mui/icons-material/AccountCircle";
 
 interface UserMenuProps {
     children: React.ReactNode;
@@ -16,9 +17,19 @@ const LayoutUserMenu: React.FC<UserMenuProps> = ({ children, usageData }) => {
     return (
         <Popover closeOnBlur={true} closeOnEsc={true}>
             <PopoverTrigger>
-                <Button variant="unstyled" color="gray.600" fontWeight={"bold"} fontSize={"lg"} mx={2}>
+                {/* <Button variant="unstyled" color="blue.800" fontWeight={"bold"} fontSize={"lg"} mx={2}>
                     {children}
-                </Button>
+                </Button> */}
+                <IconButton
+                    //   colorScheme='gray.500'
+                    color={"white"}
+                    aria-label="User Icon"
+                    icon={<AccountCircle />}
+                    mr={2}
+                    variant="ghost"
+                    size="lg"
+                />
+                {/* <MenuButton color={color} mr={2} as={IconButton} aria-label="Options" icon={<AccountCircle />} variant="ghost" /> */}
             </PopoverTrigger>
             <Portal>
                 <PopoverContent>

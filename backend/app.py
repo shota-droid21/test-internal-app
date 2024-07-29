@@ -116,9 +116,9 @@ def get_usage():
             "version": version,
         }
         if version == 3.5:
-            record["limit"] = 12000
+            record["limit"] = 50000
         elif version == 4.0:
-            record["limit"] = 15000
+            record["limit"] = 11000
         result.append(record)
 
     return jsonify(result)
@@ -137,7 +137,14 @@ def get_history():
     db = get_db()
     cursor = db.cursor()
     cursor.execute(
-        f"SELECT * FROM c WHERE c._ts >= {filter_condition['start_ts']} AND c._ts < {filter_condition['end_ts']} AND c.user = '{username}'"
+        f"""
+        SELECT * 
+        FROM c 
+        WHERE c._ts >= {filter_condition['start_ts']} 
+        AND c._ts < {filter_condition['end_ts']} 
+        AND c.user = '{username}' 
+        ORDER BY CAST(c._ts AS INTEGER) DESC
+        """
     )
     rows = cursor.fetchall()
     col_names = [description[0] for description in cursor.description]

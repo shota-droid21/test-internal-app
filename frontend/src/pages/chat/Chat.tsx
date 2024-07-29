@@ -1,6 +1,8 @@
 import { useRef, useState, useEffect } from "react";
-import { TextField, Panel, DefaultButton } from "@fluentui/react";
+import { TextField, Panel, DefaultButton, TooltipHost, mergeStyleSets } from "@fluentui/react";
 import { Dropdown, IDropdownOption } from "@fluentui/react/lib/Dropdown";
+import { SparkleFilled } from "@fluentui/react-icons";
+import { Tooltip } from "@chakra-ui/react";
 
 import styles from "./Chat.module.css";
 
@@ -16,7 +18,7 @@ const Chat = () => {
 
     const [gptModel, setGptModel] = useState<string>("gpt-3.5-turbo");
     const [systemPrompt, setSystemPrompt] = useState<string>("");
-    const [temperature, setTemperature] = useState<string>("0.0");
+    const [temperature, setTemperature] = useState<string>("0.5");
 
     const lastQuestionRef = useRef<string>("");
     const chatMessageStreamEnd = useRef<HTMLDivElement | null>(null);
@@ -30,11 +32,17 @@ const Chat = () => {
     const gpt_models: IDropdownOption[] = [
         { key: "gpt-3.5-turbo", text: "gpt-3.5-turbo" },
         { key: "gpt-3.5-turbo-16k", text: "gpt-3.5-turbo-16k" },
-        { key: "gpt-4", text: "gpt-4" },
-        { key: "gpt-4-32k", text: "gpt-4-32k" }
+        { key: "gpt-4", text: "gpt-4", disabled: true },
+        { key: "gpt-4-32k", text: "gpt-4-32k", disabled: true }
     ];
 
-    const temperatures: IDropdownOption[] = Array.from({ length: 11 }, (_, i) => ({ key: (i / 10).toFixed(1), text: (i / 10).toFixed(1) }));
+    const temperatures: IDropdownOption[] = [
+        ...Array.from({ length: 11 }, (_, i) => ({ key: (i / 10).toFixed(1), text: (i / 10).toFixed(1) })),
+        { key: "1.5", text: "1.5" },
+        { key: "2.0", text: "2.0" },
+        { key: "2.5", text: "2.5" },
+        { key: "3.0", text: "3.0" }
+    ];
 
     const makeApiRequest = async (question: string) => {
         lastQuestionRef.current = question;
@@ -86,6 +94,16 @@ const Chat = () => {
         }
     };
 
+    const classNames = mergeStyleSets({
+        tooltip: {
+            selectors: {
+                ".ms-TooltipHost": {
+                    zIndex: 1000 // Adjust this value as needed
+                }
+            }
+        }
+    });
+
     return (
         <div className={styles.container}>
             <div className={styles.commandsContainer}>
@@ -94,34 +112,42 @@ const Chat = () => {
             </div>
             <div className={styles.chatRoot}>
                 <div className={styles.chatContainer}>
-                    <div className={styles.chatMessageStream}>
-                        {answers.map((answer, index) => (
-                            <div key={index}>
-                                <UserChatMessage message={answer[0]} />
-                                <div className={styles.chatMessageGpt}>
-                                    <AnswerChat key={index} answer={answer[1]} isSelected={selectedAnswer === index} />
+                    {!lastQuestionRef.current ? (
+                        <div className={styles.chatEmptyState}>
+                            <SparkleFilled fontSize={"120px"} primaryFill={"rgba(15, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
+                            <h1 className={styles.chatEmptyStateTitle}>質問してみよう</h1>
+                            <h2 className={styles.chatEmptyStateSubtitle}>なんでも質問してください。お手伝いします。</h2>
+                            {/* <ExampleList onExampleClicked={onExampleClicked} /> */}
+                        </div>
+                    ) : (
+                        <div className={styles.chatMessageStream}>
+                            {answers.map((answer, index) => (
+                                <div key={index}>
+                                    <UserChatMessage message={answer[0]} />
+                                    <div className={styles.chatMessageGpt}>
+                                        <AnswerChat key={index} answer={answer[1]} isSelected={selectedAnswer === index} />
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
-                        {isLoading && (
-                            <>
-                                <UserChatMessage message={lastQuestionRef.current} />
-                                <div className={styles.chatMessageGptMinWidth}>
-                                    <AnswerLoading />
-                                </div>
-                            </>
-                        )}
-                        {error ? (
-                            <>
-                                <UserChatMessage message={lastQuestionRef.current} />
-                                <div className={styles.chatMessageGptMinWidth}>
-                                    <AnswerError error={error.toString()} onRetry={() => makeApiRequest(lastQuestionRef.current)} />
-                                </div>
-                            </>
-                        ) : null}
-                        <div ref={chatMessageStreamEnd} />
-                    </div>
-
+                            ))}
+                            {isLoading && (
+                                <>
+                                    <UserChatMessage message={lastQuestionRef.current} />
+                                    <div className={styles.chatMessageGptMinWidth}>
+                                        <AnswerLoading />
+                                    </div>
+                                </>
+                            )}
+                            {error ? (
+                                <>
+                                    <UserChatMessage message={lastQuestionRef.current} />
+                                    <div className={styles.chatMessageGptMinWidth}>
+                                        <AnswerError error={error.toString()} onRetry={() => makeApiRequest(lastQuestionRef.current)} />
+                                    </div>
+                                </>
+                            ) : null}
+                            <div ref={chatMessageStreamEnd} />
+                        </div>
+                    )}
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
@@ -139,6 +165,7 @@ const Chat = () => {
                     closeButtonAriaLabel="Close"
                     onRenderFooterContent={() => <DefaultButton onClick={() => setIsConfigPanelOpen(false)}>Close</DefaultButton>}
                     isFooterAtBottom={true}
+                    styles={{ root: { zIndex: 9 } }} // Adjust this value as needed
                 >
                     <Dropdown
                         className={styles.chatSettingsSeparator}
@@ -148,21 +175,25 @@ const Chat = () => {
                         options={gpt_models}
                         onChange={onGptModelChange}
                     />
+
+                    <TooltipHost content="This is a tooltip for the dropdown" className={classNames.tooltip}>
+                        <Dropdown
+                            className={styles.chatSettingsSeparator}
+                            defaultSelectedKeys={[temperature]}
+                            selectedKey={temperature}
+                            label="回答温度"
+                            options={temperatures}
+                            onChange={onTempertureChange}
+                        />
+                    </TooltipHost>
+
                     <TextField
                         className={styles.chatSettingsSeparator}
                         value={systemPrompt}
-                        label="System Prompt:"
+                        label="システムプロンプト"
                         multiline
                         autoAdjustHeight
                         onChange={onSystemPromptChange}
-                    />
-                    <Dropdown
-                        className={styles.chatSettingsSeparator}
-                        defaultSelectedKeys={[temperature]}
-                        selectedKey={temperature}
-                        label="Temperature:"
-                        options={temperatures}
-                        onChange={onTempertureChange}
                     />
                 </Panel>
             </div>
