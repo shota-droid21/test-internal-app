@@ -1,1802 +1,1802 @@
 [
     {
         "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1260,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1725924098
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 755,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1724974795
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 121,
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1733,
         "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1721990877
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1724155440
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 203,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1722642740
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-4o",
         "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1431,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1722385826
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 14,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1722760718
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 812,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1726909165
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1947,
+        "tokens": 1322,
         "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
         "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1727524916
+        "_ts": 1726654359
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 85,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1727076702
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 0,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1722703056
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 459,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721432968
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
+        "gpt_model": "gpt-4o",
         "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 8,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1723132209
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 989,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "tokens": 133,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
         "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1725816097
+        "_ts": 1719913378
     },
     {
-        "approach": "searchdoc",
-        "version": 4.0,
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
         "user": "taki@ms.iss2tf.com",
-        "tokens": 716,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "tokens": 971,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
         "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1724857744
+        "_ts": 1725190890
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-3.5-turbo-16k",
         "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 311,
+        "tokens": 389,
         "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1724489272
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 756,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1724064402
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 359,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1721556372
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 154,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
         "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1724459715
+        "_ts": 1725845160
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 972,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1726833504
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1410,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1727482021
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 595,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1720186900
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
         "tokens": 259,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1721792925
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1138,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1720581623
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 484,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721744898
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1000,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1723289147
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 63,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1723464745
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 104,
         "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1726295186
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1724892941
     },
     {
         "approach": "chat",
-        "version": 3.5,
+        "gpt_model": "gpt-3.5-turbo-16k",
         "user": "taki@ms.iss2tf.com",
-        "tokens": 513,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1726109096
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1449,
+        "tokens": 1031,
         "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1724466584
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1132,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1725483592
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1409,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1719775631
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1725,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1722910365
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1823,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1726967058
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1866,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1724524854
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1381,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1724416023
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 633,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
         "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1724226177
+        "_ts": 1723503621
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 115,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1726056835
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1163,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1726719672
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 701,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1726124094
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 23,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1727475680
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1937,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1719930395
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1180,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721066769
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1437,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1722258864
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1281,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1721991862
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 689,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1727047680
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
+        "gpt_model": "gpt-3.5-turbo",
         "user": "kobayashi@ms.iss2tf.com",
         "tokens": 978,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1724788579
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 451,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1720665705
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1591,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1722653492
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 97,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1720277901
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 949,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1721814906
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 506,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1724648921
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1636,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1722273370
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1418,
         "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1721781202
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1504,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1722336636
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1065,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1727000839
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1857,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1725782809
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1894,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
         "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1724179031
+        "_ts": 1727487949
     },
     {
         "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 957,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1723567560
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 261,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1725440001
     },
     {
         "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1717,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1720599594
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 539,
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 762,
         "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1727227592
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1725806987
     },
     {
         "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 333,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1595,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1720933527
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1772,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1722336668
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 882,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
         "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1725120439
+        "_ts": 1720896416
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 678,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1720451108
     },
     {
         "approach": "searchdoc",
-        "version": 3.5,
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1988,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1722849646
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1682,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1720407338
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 297,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1720226796
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1827,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1725113645
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 569,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1720844389
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
         "user": "kugo@ms.iss2tf.com",
-        "tokens": 1671,
+        "tokens": 1242,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1724251344
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1840,
         "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1725202321
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1720238490
     },
     {
         "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 328,
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1558,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1720688186
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 593,
         "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1721588481
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 845,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
         "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1726414938
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 411,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721937361
+        "_ts": 1727157790
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1430,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1727592696
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-4o",
         "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1248,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1720566978
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1622,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1726892191
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1440,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721766340
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 355,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1727292792
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 785,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1727156646
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1304,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1720464539
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 864,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1721725933
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 100,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1720850378
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 744,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1727121404
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 531,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1725433822
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 460,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1726264666
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 775,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1725765857
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1288,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1720839504
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1933,
+        "tokens": 1811,
         "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
         "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1725768294
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1180,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1720004739
+        "_ts": 1722547724
     },
     {
         "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 194,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1726431422
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-4o",
         "user": "kugo@ms.iss2tf.com",
-        "tokens": 470,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1722793545
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1015,
+        "tokens": 105,
         "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
         "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1725325283
+        "_ts": 1723177553
     },
     {
         "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 439,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1725770527
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 495,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1725672254
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
+        "gpt_model": "gpt-4o",
         "user": "taki@ms.iss2tf.com",
-        "tokens": 1535,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1724923682
+        "tokens": 1335,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1721364413
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1939,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1720330902
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 802,
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 493,
         "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1724914536
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1721268191
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 615,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1725282649
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1177,
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1227,
         "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
         "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1722345294
+        "_ts": 1723172825
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 24,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1722188793
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 530,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1723171303
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1154,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1723249708
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 568,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1724023456
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 940,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1720038768
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 125,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1726648545
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 69,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1721337902
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1275,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1726447912
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1859,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1724918771
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1998,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1723801809
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 849,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1722012810
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1100,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1725178082
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1614,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1721964528
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1133,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1720004819
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 203,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1723835570
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1178,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1725685833
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1387,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1720808671
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1068,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1725034003
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1858,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1722890686
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 383,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1724295093
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 511,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1724290965
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1775,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1721464023
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 377,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1721336559
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1302,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1721654575
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 196,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1721187351
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1531,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1721339473
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1760,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1724333148
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 502,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1721457027
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1942,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1726248793
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1973,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1720178652
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1230,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1720866971
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 75,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1722112568
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1296,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1722917407
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 760,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1720408791
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1950,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1719860218
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 312,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1724970239
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 598,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1726840827
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1834,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1722954441
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1021,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1726199589
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 605,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1727053548
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 531,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1724337110
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 418,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1723169151
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1207,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1724841141
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 170,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1727175161
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1906,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1720713382
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 42,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1726960521
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 693,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1727406313
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1766,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1726429035
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1186,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1724962189
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 251,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1721043554
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1495,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1721053289
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 509,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1727247458
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 656,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1724473532
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 765,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1726937303
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1287,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1723737305
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1220,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1723506127
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 268,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1723211675
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1080,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1721886875
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1754,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1725532936
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1921,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
-        "_ts": 1722503025
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 318,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1719854028
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1436,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1727370695
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1923,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1726719784
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1738,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1726866365
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 227,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1724434090
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1602,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1725394890
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1095,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1725875851
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1374,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1723396753
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 484,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1724959138
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1352,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1722214106
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1796,
-        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1722139707
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1155,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1721211702
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1768,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721397140
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1523,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1719817922
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1216,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1722778199
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 1781,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1724495338
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1899,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1723113817
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 55,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1720128952
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1433,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1725926717
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1568,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721157701
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1080,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1720178633
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1946,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1727419484
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 1882,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1721703235
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1005,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
-        "_ts": 1725009499
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 506,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1723032315
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 399,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1727265672
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1752,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1723310434
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
+        "gpt_model": "gpt-3.5-turbo",
         "user": "kugo@ms.iss2tf.com",
         "tokens": 1714,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1723532693
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1719965084
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1733,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1725058346
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 219,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1722990616
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1813,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1720140945
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
         "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1842,
+        "tokens": 273,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1721359951
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1346,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1722327481
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 910,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1725747577
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1051,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1721465815
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1620,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1723098587
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 340,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1723823828
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1334,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1720319607
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1999,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1725083259
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 998,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1723392319
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 444,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1723627002
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 298,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1722478622
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1423,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1720923917
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1364,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1722143050
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 568,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1720987395
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1245,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1727599236
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 669,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1720784193
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1898,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1722230497
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 70,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1724839917
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1446,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1721828275
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 602,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1720280562
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 225,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1724514983
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1578,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1726425030
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 896,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1722279355
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 402,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1724610572
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1296,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1725471945
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 186,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1723697434
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1970,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1720176267
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1879,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1724801839
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 408,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1723609289
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 652,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1725759790
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 723,
         "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
         "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1726274385
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 1752,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1720153685
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "saito@ms.iss2tf.com",
-        "tokens": 758,
-        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1723054903
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 581,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1724500593
+        "_ts": 1723778933
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 1971,
-        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
-        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
-        "_ts": 1726296903
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-4o",
         "user": "saito@ms.iss2tf.com",
-        "tokens": 1827,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1723367143
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 209,
+        "tokens": 1705,
         "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1724676191
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 929,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
         "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1726131810
-    },
-    {
-        "approach": "chat",
-        "version": 4.0,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 397,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
-        "_ts": 1724456176
+        "_ts": 1726693916
     },
     {
         "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 504,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1721718835
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 99,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1721355917
     },
     {
         "approach": "chat",
-        "version": 3.5,
+        "gpt_model": "gpt-4o",
         "user": "taki@ms.iss2tf.com",
-        "tokens": 585,
+        "tokens": 3,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1725701170
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 529,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1726199091
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1998,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1720655751
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1001,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1727037099
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 79,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1720347610
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 756,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1727151253
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1372,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1722657527
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1301,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1722630297
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1099,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1720972279
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 164,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1721299701
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1561,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1727564161
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1923,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1724100657
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 968,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1720865217
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1979,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1720914167
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 129,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1724315173
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 424,
         "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
         "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1726819377
-    },
-    {
-        "approach": "searchdoc",
-        "version": 3.5,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 704,
-        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1726933890
+        "_ts": 1726067173
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "kugo@ms.iss2tf.com",
-        "tokens": 935,
-        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
-        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1720103902
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 303,
-        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
-        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1722850001
-    },
-    {
-        "approach": "chat",
-        "version": 3.5,
-        "user": "taki@ms.iss2tf.com",
-        "tokens": 926,
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 142,
         "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1720974591
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1724944174
     },
     {
         "approach": "chat",
-        "version": 4.0,
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 888,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1720656791
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 637,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1724667783
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1549,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1725642334
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1055,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1723065030
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
         "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 660,
+        "tokens": 1460,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1721536913
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1356,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1723999429
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1913,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1723204381
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 179,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1721381769
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 608,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1725573388
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1223,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1721391111
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1241,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1723563051
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1095,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1720452244
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1194,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1724904030
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1063,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1720624330
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1026,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1722495796
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 241,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1723880587
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 557,
         "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
         "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
-        "_ts": 1725651403
+        "_ts": 1725881804
     },
     {
-        "approach": "chat",
-        "version": 4.0,
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
         "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 110,
-        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1724744871
-    },
-    {
-        "approach": "searchdoc",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 231,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "tokens": 198,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
         "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1720999616
+        "_ts": 1726510883
     },
     {
         "approach": "chat",
-        "version": 4.0,
-        "user": "kobayashi@ms.iss2tf.com",
-        "tokens": 737,
-        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
-        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
-        "_ts": 1724412440
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 134,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1725159973
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1423,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1725335598
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1799,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1724935052
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 908,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1723779944
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
         "user": "kugo@ms.iss2tf.com",
-        "tokens": 1329,
+        "tokens": 699,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1720096598
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 642,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1724223317
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1370,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1724581828
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 400,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1722079228
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 921,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1726477123
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1010,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1723242043
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 421,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1727193653
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1690,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1721173625
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 772,
         "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
         "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
-        "_ts": 1724480270
+        "_ts": 1722100062
     },
     {
         "approach": "searchdoc",
-        "version": 4.0,
-        "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 1717,
-        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
-        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
-        "_ts": 1726561029
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 706,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1723019874
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1546,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1724701205
     },
     {
         "approach": "chat",
-        "version": 4.0,
+        "gpt_model": "gpt-3.5-turbo",
         "user": "taki@ms.iss2tf.com",
-        "tokens": 1257,
-        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
-        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
-        "_ts": 1721620379
+        "tokens": 192,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1724821976
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 396,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1724000149
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1266,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1724391156
     },
     {
         "approach": "searchdoc",
-        "version": 3.5,
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 568,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1724194748
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1136,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1725049363
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
         "user": "yoshimura@ms.iss2tf.com",
-        "tokens": 354,
+        "tokens": 1006,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1720860385
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1865,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1725700206
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1351,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1723973728
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 936,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1721790728
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1175,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1721287879
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1012,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1723383364
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1869,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1725261167
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1736,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1722824909
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 219,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1722458833
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 537,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1727352513
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1979,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1727034578
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 907,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1727233261
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1808,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1720156172
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1851,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1726071278
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 628,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1722963024
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 820,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1723767952
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 732,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1722953918
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1735,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1724006349
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1177,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1722656207
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1124,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1722802869
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1371,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1724094504
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1301,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1724793712
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 844,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1726084044
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1636,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1720590918
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1443,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1726535602
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 215,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1725763834
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1155,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1720742152
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1561,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1721808692
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1348,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1723637540
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1721,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1727576302
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 570,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1722815325
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1879,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1721045454
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1545,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1720633280
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 810,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1721156942
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 894,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1721217420
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 392,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1722471978
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1791,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1724915552
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 889,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1724083120
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 1680,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1725285646
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1802,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1723747618
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1804,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1720324857
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1849,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1723136337
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 351,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1724527128
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 640,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1722716879
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 904,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1726142938
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 348,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1724883598
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 1853,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1726646180
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 786,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1721665950
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 145,
+        "input": "\u30b8\u30e7\u30fc\u30af\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1722524014
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 993,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1722473280
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1740,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1721224106
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 950,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1724490095
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 694,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1727384787
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 76,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u91cf\u5b50\u7269\u7406\u5b66\u306f\u7269\u7406\u5b66\u306e\u57fa\u672c\u7684\u306a\u7406\u8ad6\u3067\u3059\u3002",
+        "_ts": 1725436077
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1978,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1721252068
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 729,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1720309834
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1350,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1723935120
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1798,
         "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
         "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
-        "_ts": 1727384823
+        "_ts": 1725982552
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1552,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1722855255
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 1397,
+        "input": "\u91cf\u5b50\u7269\u7406\u5b66\u3092\u8aac\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1722688638
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1169,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1719944727
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 581,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1725570128
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 1139,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4e3b\u89b3\u7684\u3067\u3059\u3002",
+        "_ts": 1722062054
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 381,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1723754072
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 741,
+        "input": "\u30d1\u30b9\u30bf\u306e\u4f5c\u308a\u65b9\u306f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1724460001
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1117,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1726484785
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 873,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1727599452
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 514,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1725713616
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 207,
+        "input": "Python\u3092\u4f7f\u3046\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1723594490
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-4o",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1943,
+        "input": "\u4eca\u65e5\u306e\u5929\u6c17\u306f",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1724406069
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1359,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u4eca\u65e5\u306e\u5929\u6c17\u306f\u6674\u308c\u3067\u3059\u3002",
+        "_ts": 1725560928
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kugo@ms.iss2tf.com",
+        "tokens": 342,
+        "input": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b",
+        "response": "\u30d7\u30ed\u30b0\u30e9\u30df\u30f3\u30b0\u3092\u5b66\u3076\u306b\u306f\u3001\u7df4\u7fd2\u3068\u52c9\u5f37\u304c\u5fc5\u8981\u3067\u3059\u3002",
+        "_ts": 1725458612
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "yoshimura@ms.iss2tf.com",
+        "tokens": 683,
+        "input": "\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u958b\u767a\u306e\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u6a5f\u68b0\u5b66\u7fd2\u306f\u4eba\u5de5\u77e5\u80fd\u306e\u4e00\u5206\u91ce\u3067\u3059\u3002",
+        "_ts": 1726043906
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 605,
+        "input": "\u6a5f\u68b0\u5b66\u7fd2\u3068\u306f\u4f55\u3067\u3059\u304b",
+        "response": "\u30d1\u30ea\u306f\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u3067\u3059\u3002",
+        "_ts": 1725245378
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-4o",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 419,
+        "input": "\u4eba\u751f\u306e\u610f\u5473\u306f\u4f55\u3067\u3059\u304b\uff1f",
+        "response": "\u30d1\u30b9\u30bf\u3092\u4f5c\u308b\u306b\u306f\u3001\u6c34\u3092\u6cb8\u9a30\u3055\u305b\u3066\u30d1\u30b9\u30bf\u3092\u5165\u308c\u300110\u301c12\u5206\u9593\u8339\u3067\u307e\u3059\u3002",
+        "_ts": 1723243067
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "kobayashi@ms.iss2tf.com",
+        "tokens": 505,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "Python\u306fpython.org\u304b\u3089\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3057\u3066\u4f7f\u3046\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002",
+        "_ts": 1727288520
+    },
+    {
+        "approach": "chat",
+        "gpt_model": "gpt-3.5-turbo",
+        "user": "taki@ms.iss2tf.com",
+        "tokens": 1543,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u79d1\u5b66\u8005\u304c\u539f\u5b50\u3092\u4fe1\u7528\u3057\u306a\u3044\u306e\u306f\u306a\u305c\u3067\u3059\u304b\uff1f\u305d\u308c\u306f\u3001\u539f\u5b50\u304c\u3059\u3079\u3066\u3092\u4f5c\u308a\u4e0a\u3052\u308b\u304b\u3089\u3067\u3059\u3002",
+        "_ts": 1725094826
+    },
+    {
+        "approach": "searchdoc",
+        "gpt_model": "gpt-3.5-turbo-16k",
+        "user": "saito@ms.iss2tf.com",
+        "tokens": 961,
+        "input": "\u30d5\u30e9\u30f3\u30b9\u306e\u9996\u90fd\u306f\u3069\u3053\u3067\u3059\u304b",
+        "response": "\u30d9\u30b9\u30c8\u30d7\u30e9\u30af\u30c6\u30a3\u30b9\u306b\u306f\u3001\u304d\u308c\u3044\u306a\u30b3\u30fc\u30c9\u3092\u66f8\u304f\u3053\u3068\u3084\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u7528\u3059\u308b\u3053\u3068\u304c\u542b\u307e\u308c\u307e\u3059\u3002",
+        "_ts": 1722303910
     }
 ]

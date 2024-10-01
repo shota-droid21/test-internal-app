@@ -61,7 +61,7 @@ data = []
 for _ in range(200):
     record = {
         "approach": random.choice(["chat", "searchdoc"]),
-        "version": random.choice([3.5, 4.0]),
+        "gpt_model": random.choice(["gpt-3.5-turbo", "gpt-3.5-turbo-16k", "gpt-4o"]),
         "user": random.choice(
             [
                 "kobayashi@ms.iss2tf.com",

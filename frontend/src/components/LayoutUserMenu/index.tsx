@@ -4,13 +4,13 @@ import { List } from "@fluentui/react";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
 interface UserMenuProps {
-    usageData: List;
+    usageData: any[];
     userName: String;
 }
 
 const LayoutUserMenu: React.FC<UserMenuProps> = ({ usageData, userName }) => {
-    const getPropByVersion = (version: number) => {
-        const ret = usageData.find((item: number) => item.version == version);
+    const getPropByVersion = (version: string) => {
+        const ret = usageData.find((item: any) => item.gpt_model == version);
         return { value: ret?.total_tokens, limit: ret?.limit };
     };
 
@@ -39,12 +39,13 @@ const LayoutUserMenu: React.FC<UserMenuProps> = ({ usageData, userName }) => {
                         </Text>
                     </PopoverHeader>
                     <PopoverBody>
-                        <UsageProgressBar label="Token 使用量（3.5）" {...getPropByVersion(3.5)} />
-                        <UsageProgressBar label="Token 使用量（4.0）" {...getPropByVersion(4.0)} />
+                        <UsageProgressBar label="Token 使用量（3.5）" {...getPropByVersion("gpt-3.5-turbo")} />
+                        {/* <UsageProgressBar label="Token 使用量（gpt-3.5-turbo-16k）" {...getPropByVersion("gpt-3.5-turbo-16k")} /> */}
+                        <UsageProgressBar label="Token 使用量（4o）" {...getPropByVersion("gpt-4o")} />
                     </PopoverBody>
                     <PopoverFooter cursor="pointer" onClick={() => window.close()}>
                         <Text color="gray.700" fontSize="sm">
-                            使用状況の詳細
+                            アカウント詳細
                         </Text>
                     </PopoverFooter>
                 </PopoverContent>

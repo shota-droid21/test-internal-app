@@ -4,6 +4,8 @@ import os
 from flask import Flask, g, jsonify, request
 from flask_cors import CORS
 from datetime import datetime, timezone
+from collections import defaultdict
+
 
 app = Flask(__name__)
 CORS(app)
@@ -44,17 +46,17 @@ def init_db():
         cursor.execute(
             """CREATE TABLE IF NOT EXISTS c
                           (id INTEGER PRIMARY KEY AUTOINCREMENT,
-                           approach TEXT, version REAL, user TEXT, tokens INTEGER, 
+                           approach TEXT, gpt_model REAL, user TEXT, tokens INTEGER, 
                            input TEXT, response TEXT, _ts TEXT)"""
         )
         with open("test_data.json", "r") as f:
             data = json.load(f)
             for record in data:
                 cursor.execute(
-                    "INSERT INTO c (approach, version, user, tokens, input, response, _ts) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                    "INSERT INTO c (approach, gpt_model, user, tokens, input, response, _ts) VALUES (?, ?, ?, ?, ?, ?, ?)",
                     (
                         record["approach"],
-                        record["version"],
+                        record["gpt_model"],
                         record["user"],
                         record["tokens"],
                         record["input"],
@@ -99,10 +101,10 @@ def get_usage():
     cursor = db.cursor()
     cursor.execute(
         f"""
-        SELECT version, SUM(tokens) as total_tokens 
+        SELECT gpt_model, SUM(tokens) as total_tokens 
         FROM c 
         WHERE _ts >= ? AND _ts < ? AND user = ? 
-        GROUP BY version
+        GROUP BY gpt_model
         """,
         (filter_condition["start_ts"], filter_condition["end_ts"], username),
     )
@@ -110,21 +112,56 @@ def get_usage():
 
     result = []
     for row in rows:
-        version, total_tokens = row
+        gpt_model, total_tokens = row
         record = {
             "total_tokens": total_tokens,
-            "version": version,
+            "gpt_model": gpt_model,
         }
-        if version == 3.5:
+        if gpt_model == "gpt-3.5-turbo":
+            record["limit"] = 100000
+        if gpt_model == "gpt-3.5-turbo-16k":
             record["limit"] = 50000
-        elif version == 4.0:
-            record["limit"] = 11000
+        elif gpt_model == "gpt-4o":
+            record["limit"] = 30000
         result.append(record)
 
     return jsonify(result)
 
-    # クエリを作成
-    # query = f"SELECT * FROM c WHERE c._ts >= {start_ts} AND c._ts < {end_ts}"
+
+@app.route("/get-usage-by-user", methods=["GET"])
+def get_usage_by_user():
+    username = request.args.get("username")
+    filter_condition = get_filter_month()
+
+    db = get_db()
+    cursor = db.cursor()
+    cursor.execute(
+        f"""
+        SELECT user,gpt_model, SUM(tokens) as total_tokens 
+        FROM c 
+        WHERE _ts >= ? AND _ts < ?
+        GROUP BY user,gpt_model
+        """,
+        (filter_condition["start_ts"], filter_condition["end_ts"]),
+    )
+    rows = cursor.fetchall()
+
+    result = []
+    for item in rows:
+        user = item[0]
+        gpt_model = item[1]
+        total_tokens = item[2]
+        # aggregation[user][gpt_model] += total_tokens
+        result.append(
+            {"user": user, "gpt_model": gpt_model, "total_tokens": total_tokens}
+        )
+
+    # for user, models in aggregation.items():
+    #     print(f"User: {user}")
+    #     for gpt_model, total_tokens in models.items():
+    #         print(f"  GPT Model: {gpt_model}, Total Tokens: {total_tokens}")
+
+    return jsonify(result)
 
 
 @app.route("/get-history", methods=["GET"])

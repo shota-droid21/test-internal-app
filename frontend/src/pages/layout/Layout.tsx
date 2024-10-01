@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import { Outlet, NavLink, Link, useNavigate } from "react-router-dom";
+import { Outlet, NavLink, Link, useNavigate, useLocation } from "react-router-dom";
 import { Box, Button, HStack, Flex, Spacer, Text, Menu, MenuButton, MenuList, MenuItem, VStack } from "@chakra-ui/react";
 import { AccessToken, Claim, useFetchSWR } from "../../api";
 import LayoutUserMenu from "../../components/LayoutUserMenu";
@@ -40,6 +40,8 @@ const Layout = () => {
         return username.replace("@ms.iss2tf.com", "");
     };
 
+    const location = useLocation();
+    console.log(location.pathname);
     getLoginUserName();
 
     return (
@@ -58,17 +60,31 @@ const Layout = () => {
                     <Spacer />
                     <HStack>
                         <NavLink to="/">
-                            <Button variant="ghost" color="gray.700">
+                            <Button variant="ghost" color="gray.700" colorScheme="cyan" isActive={location.pathname == "/"} borderRadius={"100px"} size="sm">
                                 チャット
                             </Button>
                         </NavLink>
                         <NavLink to="/docsearch">
-                            <Button variant="ghost" color="gray.700">
+                            <Button
+                                variant="ghost"
+                                color="gray.700"
+                                colorScheme="cyan"
+                                isActive={location.pathname == "/docsearch"}
+                                borderRadius={"100px"}
+                                size="sm"
+                            >
                                 ドキュメント検索
                             </Button>
                         </NavLink>
                         <NavLink to="/history">
-                            <Button variant="ghost" color="gray.700">
+                            <Button
+                                variant="ghost"
+                                color="gray.700"
+                                colorScheme="cyan"
+                                isActive={location.pathname == "/history"}
+                                borderRadius={"100px"}
+                                size="sm"
+                            >
                                 履歴
                             </Button>
                         </NavLink>

@@ -5,7 +5,7 @@ import { ja } from "date-fns/locale";
 
 interface Item {
     approach: string;
-    version: string;
+    gpt_model: string;
     user: string;
     tokens: number;
     input: string;
@@ -65,8 +65,8 @@ const History: React.FC = () => {
 
                                 <Box display="flex" justifyContent="flex-end" alignItems="flex-end" h="50px" w="100%">
                                     <HStack spacing={1} mr={6}>
-                                        <Text fontSize={"sm"}>GPTモデル：</Text>
-                                        <Text fontSize={"sm"}>{item.version}</Text>
+                                        <Text fontSize={"sm"}>モデル：</Text>
+                                        <Text fontSize={"sm"}>{item.gpt_model}</Text>
                                     </HStack>
 
                                     <HStack spacing={1}>
